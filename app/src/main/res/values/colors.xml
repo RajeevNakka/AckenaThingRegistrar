@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#343434</color>
+    <color name="colorPrimaryDark">#303030</color>
+    <color name="colorAccent">#a8635b</color>
+    <color name="colorCardBackground">#FFFFFF</color>
+    <color name="statusAvailable">#7ebc02</color>
+    <color name="statusBusy">#eb0817</color>
+    <color name="statusAway">#f9ce17</color>
+    <color name="statusNotAvailable">#c7c7c6</color>
+    <color name="statusExtendedAway">#fff59c</color>
+    <color name="transparent">#00000000</color>
+    <color name="color_preloader_center">#ffffff</color>
+    <color name="color_preloader_end">#890c0c</color>
+    <color name="color_preloader_start">#ff56a9c7</color>
+</resources>

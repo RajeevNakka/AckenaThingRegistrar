@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "23.0.3"
+    defaultConfig {
+        applicationId "com.ackena.thingregistrar"
+        minSdkVersion 14
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile 'me.dm7.barcodescanner:zbar:1.9'
+    compile 'com.android.support:cardview-v7:24.2.1'
+}
+dependencies {
+    compile "org.igniterealtime.smack:smack-android:4.1.0"
+    compile "org.igniterealtime.smack:smack-android-extensions:4.1.0"
+    compile "org.igniterealtime.smack:smack-tcp:4.1.0"
+}
+dependencies {
+    compile 'com.android.support:design:24.+'
+}
+dependencies {
+    compile 'com.android.support:support-v4:24.+'
+    compile 'com.android.support:support-vector-drawable:24.+'
+}
+dependencies {
+    compile 'com.android.support:support-v4:24.+'
+    compile 'com.android.support:recyclerview-v7:24.+'
+}
+
